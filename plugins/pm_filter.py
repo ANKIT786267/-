@@ -409,10 +409,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ', url='https://t.me/thewarriorsreal')
         ], [
-            InlinekeyboardButton('𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄', url='https://t.me/defenderofthemultiverse'),
-            InlinekeyboardButton('Aηᴋɪᴛ', url='https://t.me/ANKIT3690')
+            InlineKeyboardButton('𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄', url='https://t.me/defenderofthemultiverse'),
+            InlineKeyboardButton('Aηᴋɪᴛ', url='https://t.me/ANKIT3690')
         ], [
-            InlinekeyboardButton('Sαυɾαʋ', url='https://t.me/Saurav3BV6SA9LLElon7Musk')
+            InlineKeyboardButton('Sαυɾαʋ', url='https://t.me/Saurav3BV6SA9LLElon7Musk')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
