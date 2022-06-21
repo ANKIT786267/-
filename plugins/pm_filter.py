@@ -195,7 +195,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("That's not for you!!", show_alert=True)
+                await query.answer("That's not for you!!, Request Your Own, @thewarriorsreal", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode="md"
             )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Owner:Aηᴋɪᴛ')
     elif query.data == "backcb":
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('Sαυɾαʋ')
         buttons = []
         for groupid in groupids:
             try:
@@ -407,9 +407,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ', url='https://t.me/thewarriorsreal'),
+            InlineKeyboardButton('𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ', url='https://t.me/thewarriorsreal')
+        ], [
             InlinekeyboardButton('𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄', url='https://t.me/defenderofthemultiverse'),
-            InlinekeyboardButton('Aηᴋɪᴛ', url='https://t.me/ANKIT3690'),
+            InlinekeyboardButton('Aηᴋɪᴛ', url='https://t.me/ANKIT3690')
+        ], [
             InlinekeyboardButton('Sαυɾαʋ', url='https://t.me/Saurav3BV6SA9LLElon7Musk')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -441,8 +443,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton(' 𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ', url='https://t.me/thewarriorsreal'),
+            InlineKeyboardButton(' Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
@@ -615,7 +617,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    await query.answer('Aηᴋɪᴛ)
 
 
 async def auto_filter(client, msg, spoll=False):
